@@ -3,7 +3,6 @@ package com.jabguru.jobms.job;
 import jakarta.persistence.*;
 
 @Entity
-//@Table(name = "job_table")
 public class Job {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
